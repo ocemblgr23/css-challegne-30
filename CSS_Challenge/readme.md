@@ -6,3 +6,4 @@
 
 - [x] sticky header and navber
 - [x] make footer bottom of the page
+- [ ] responsive design image with heading and description
