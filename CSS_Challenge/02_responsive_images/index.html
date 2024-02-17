@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Images</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Responsive Images</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="container">
+          <h2>Welcome to Our Website!</h2>
+          <p>
+            This is the main section of your webpage. You can add introductory
+            content here.
+          </p>
+          <div class="image__gallery">
+            <img
+              src="https://images.unsplash.com/photo-1526779259212-939e64788e3c?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+              srcset=""
+            />
+            <img
+              src="https://plus.unsplash.com/premium_photo-1661889099855-b44dc39e88c9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+              srcset=""
+            />
+
+            <img
+              src="https://images.unsplash.com/photo-1505968409348-bd000797c92e?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+              srcset=""
+            />
+
+            <img
+              src="https://images.unsplash.com/photo-1502236876560-243e78f715f7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+              srcset=""
+            />
+          </div>
+        </div>
+      </section>
+      <section class="bg__teal">
+        <div class="container">
+          <article>
+            <h1 class="main__title">
+              Introduction to services and dependency injection
+            </h1>
+            <p>
+              Service is a broad category encompassing any value, function, or
+              feature that an application needs. A service is typically a class
+              with a narrow, well-defined purpose. It should do something
+              specific and do it well.
+            </p>
+            <p>
+              Angular distinguishes components from services to increase
+              modularity and reusability. Ideally, a component's job is to
+              enable only the user experience. A component should present
+              properties and methods for data binding to mediate between the
+              view and the application logic. The view is what the template
+              renders and the application logic is what includes the notion of a
+              model.
+            </p>
+            <p>
+              A component should use services for tasks that don't involve the
+              view or application logic. Services are good for tasks such as
+              fetching data from the server, validating user input, or logging
+              directly to the console. By defining such processing tasks in an
+              injectable service class, you make those tasks available to any
+              component. You can also make your application more adaptable by
+              injecting different providers of the same kind of service, as
+              appropriate in different circumstances. Angular doesn't enforce
+              these principles.<br />
+              Instead, Angular helps you follow these principles by making it
+              easy to factor your application logic into services. In Angular,
+              dependency injection makes those services available to components.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
