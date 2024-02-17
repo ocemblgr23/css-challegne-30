@@ -552,6 +552,10 @@ video {
   display: grid;
 }
 
+.hidden {
+  display: none;
+}
+
 .min-h-\[100px\] {
   min-height: 100px;
 }
@@ -652,6 +656,10 @@ video {
 
   .sm\:col-span-8 {
     grid-column: span 8 / span 8;
+  }
+
+  .sm\:block {
+    display: block;
   }
 
   .sm\:grid-cols-2 {
